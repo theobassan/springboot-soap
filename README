@@ -1,0 +1,5 @@
+mvn spring-boot:run
+
+curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -d '{ "name": "Spain" }' http://localhost:4444/country
+
+curl http://localhost:4444/hello/maria
